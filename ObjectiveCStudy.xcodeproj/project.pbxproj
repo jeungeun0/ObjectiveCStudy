@@ -18,6 +18,8 @@
 		5AD8E0652B58D9400039C611 /* ObjectiveCStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E0642B58D9400039C611 /* ObjectiveCStudyTests.m */; };
 		5AD8E06F2B58D9400039C611 /* ObjectiveCStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E06E2B58D9400039C611 /* ObjectiveCStudyUITests.m */; };
 		5AD8E0712B58D9400039C611 /* ObjectiveCStudyUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E0702B58D9400039C611 /* ObjectiveCStudyUITestsLaunchTests.m */; };
+		5AD8E07F2B58DB790039C611 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E07E2B58DB790039C611 /* Friend.m */; };
+		5AD8E0A32B5CFE110039C611 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E0A22B5CFE110039C611 /* BlockTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		5AD8E06A2B58D9400039C611 /* ObjectiveCStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD8E06E2B58D9400039C611 /* ObjectiveCStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCStudyUITests.m; sourceTree = "<group>"; };
 		5AD8E0702B58D9400039C611 /* ObjectiveCStudyUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCStudyUITestsLaunchTests.m; sourceTree = "<group>"; };
+		5AD8E07D2B58DACF0039C611 /* Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		5AD8E07E2B58DB790039C611 /* Friend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		5AD8E0A22B5CFE110039C611 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
+		5AD8E0A42B5CFE230039C611 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 				5AD8E0592B58D9400039C611 /* Info.plist */,
 				5AD8E05A2B58D9400039C611 /* main.m */,
 				5AD8E0512B58D93F0039C611 /* ObjectiveCStudy.xcdatamodeld */,
+				5AD8E07D2B58DACF0039C611 /* Friend.h */,
+				5AD8E07E2B58DB790039C611 /* Friend.m */,
+				5AD8E0A42B5CFE230039C611 /* BlockTest.h */,
+				5AD8E0A22B5CFE110039C611 /* BlockTest.m */,
 			);
 			path = ObjectiveCStudy;
 			sourceTree = "<group>";
@@ -272,8 +282,10 @@
 				5AD8E05B2B58D9400039C611 /* main.m in Sources */,
 				5AD8E04D2B58D93F0039C611 /* ViewController.m in Sources */,
 				5AD8E0472B58D93F0039C611 /* AppDelegate.m in Sources */,
+				5AD8E07F2B58DB790039C611 /* Friend.m in Sources */,
 				5AD8E04A2B58D93F0039C611 /* SceneDelegate.m in Sources */,
 				5AD8E0532B58D93F0039C611 /* ObjectiveCStudy.xcdatamodeld in Sources */,
+				5AD8E0A32B5CFE110039C611 /* BlockTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

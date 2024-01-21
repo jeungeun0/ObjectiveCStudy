@@ -6,6 +6,8 @@
 //
 
 #import "ViewController.h"
+#import "Friend.h"
+#import "BlockTest.h"
 
 @interface ViewController ()
 
@@ -16,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    BlockTest *blockTest = [[BlockTest alloc] init];
+    [blockTest someFunction];
+    [blockTest someFunctionWithParam:@"애옹이"];
+    [blockTest someFunctionWithMultiParam:@"원두" withAge:7];
+    
 }
 
 
