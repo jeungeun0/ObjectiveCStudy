@@ -30,6 +30,10 @@
     [blockTest someFunctionWithTypedefBlockParam:^(NSString * name) {
         NSLog(@"%s, line: %d, name: %@",__func__,__LINE__, name);
     }];
+    [blockTest someFunctionWithOptionalBlockParam:nil];
+    [blockTest someFunctionWithOptionalBlockParam:^(NSString * value) {
+        NSLog(@"%s, line: %d, name: %@",__func__,__LINE__, value);
+    }];
     
 }
 

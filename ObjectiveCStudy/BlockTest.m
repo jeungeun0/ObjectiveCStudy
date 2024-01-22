@@ -43,16 +43,24 @@
     blockWithMultiParam(name, age);
 }
 
-- (void)someFunctionWithBlockParam:(void(^)(NSString *))done;
+- (void)someFunctionWithBlockParam:(void(^)(NSString *))done
 {
     NSLog(@"%s, line: %d, %@",__func__,__LINE__,@"");
     done(@"완료");
 }
 
-- (void)someFunctionWithTypedefBlockParam:(DoneBlock)done;
+- (void)someFunctionWithTypedefBlockParam:(DoneBlock)done
 {
     NSLog(@"%s, line: %d, %@",__func__,__LINE__,@"");
     done(@"완료");
+}
+
+- (void)someFunctionWithOptionalBlockParam:(void (^__nullable)(NSString *))done
+{
+    NSLog(@"%s, line: %d, %@",__func__,__LINE__,@"");
+    if (done != nil) {
+        done(@"완료 DoneBlock");
+    }
 }
 
 @end

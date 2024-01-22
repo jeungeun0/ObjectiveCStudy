@@ -35,6 +35,8 @@ typedef void(^DoneBlock)(NSString *);
 - (void)someFunctionWithBlockParam:(void(^)(NSString *))done;
 - (void)someFunctionWithTypedefBlockParam:(DoneBlock)done;
 
+- (void)someFunctionWithOptionalBlockParam: (void (^__nullable)(NSString *))done;
+
 @end
 
 #endif /* BlockTest_h */
