@@ -20,6 +20,8 @@
 		5AD8E0712B58D9400039C611 /* ObjectiveCStudyUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E0702B58D9400039C611 /* ObjectiveCStudyUITestsLaunchTests.m */; };
 		5AD8E07F2B58DB790039C611 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E07E2B58DB790039C611 /* Friend.m */; };
 		5AD8E0A32B5CFE110039C611 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E0A22B5CFE110039C611 /* BlockTest.m */; };
+		5AF730382B5E5E1C00CAAC6F /* Friend+Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF730372B5E5E1C00CAAC6F /* Friend+Info.m */; };
+		5AF7303B2B5E5F7300CAAC6F /* NSDate+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7303A2B5E5F7300CAAC6F /* NSDate+Helpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,10 @@
 		5AD8E07E2B58DB790039C611 /* Friend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
 		5AD8E0A22B5CFE110039C611 /* BlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
 		5AD8E0A42B5CFE230039C611 /* BlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
+		5AF730362B5E5E1C00CAAC6F /* Friend+Info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Friend+Info.h"; sourceTree = "<group>"; };
+		5AF730372B5E5E1C00CAAC6F /* Friend+Info.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Friend+Info.m"; sourceTree = "<group>"; };
+		5AF730392B5E5F7300CAAC6F /* NSDate+Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helpers.h"; sourceTree = "<group>"; };
+		5AF7303A2B5E5F7300CAAC6F /* NSDate+Helpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helpers.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,10 @@
 				5AD8E07E2B58DB790039C611 /* Friend.m */,
 				5AD8E0A42B5CFE230039C611 /* BlockTest.h */,
 				5AD8E0A22B5CFE110039C611 /* BlockTest.m */,
+				5AF730362B5E5E1C00CAAC6F /* Friend+Info.h */,
+				5AF730372B5E5E1C00CAAC6F /* Friend+Info.m */,
+				5AF730392B5E5F7300CAAC6F /* NSDate+Helpers.h */,
+				5AF7303A2B5E5F7300CAAC6F /* NSDate+Helpers.m */,
 			);
 			path = ObjectiveCStudy;
 			sourceTree = "<group>";
@@ -286,6 +296,8 @@
 				5AD8E04A2B58D93F0039C611 /* SceneDelegate.m in Sources */,
 				5AD8E0532B58D93F0039C611 /* ObjectiveCStudy.xcdatamodeld in Sources */,
 				5AD8E0A32B5CFE110039C611 /* BlockTest.m in Sources */,
+				5AF7303B2B5E5F7300CAAC6F /* NSDate+Helpers.m in Sources */,
+				5AF730382B5E5E1C00CAAC6F /* Friend+Info.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,42 +14,10 @@
             filePath = "ObjectiveCStudy/ViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B431DFEC-E4B4-4868-978F-0E43C77241DF - b6a27ba149474c8f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController viewDidLoad]"
-                  moduleName = "ObjectiveCStudy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jeungeun/Desktop/ObjectiveCStudy/ObjectiveCStudy/ViewController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "46"
-                  endingLineNumber = "46"
-                  offsetFromSymbolStart = "508">
-               </Location>
-               <Location
-                  uuid = "B431DFEC-E4B4-4868-978F-0E43C77241DF - b6a27ba149474cee"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController viewDidLoad]"
-                  moduleName = "ObjectiveCStudy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jeungeun/Desktop/ObjectiveCStudy/ObjectiveCStudy/ViewController.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "560">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

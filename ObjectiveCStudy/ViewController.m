@@ -8,6 +8,8 @@
 #import "ViewController.h"
 #import "Friend.h"
 #import "BlockTest.h"
+#import "Friend+Info.h"
+#import "NSDate+Helpers.h"
 
 @interface ViewController ()
 
@@ -42,6 +44,13 @@
     NSLog(@"nickName: %@", [aFriend nickname]);
     [aFriend setNickname:@"JD"];
     NSLog(@"nickName: %@", [aFriend nickname]);
+    //----------------------------------------------------
+    NSString *info = [aFriend getInfo];
+    NSLog(@"info: %@", info);
+    NSDate *today = [NSDate date];
+    NSDate *yesterday = [NSDate dateWithTimeIntervalSinceNow:-(60.0f*60.0f*24.0f)];
+    NSLog([today isToday] ? @"오늘입니다" : @"오늘이 아닙니다");
+    NSLog([yesterday isToday] ? @"오늘입니다" : @"오늘이 아닙니다");
     //----------------------------------------------------
     
     BlockTest *blockTest = [[BlockTest alloc] init];
