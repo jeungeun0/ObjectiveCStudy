@@ -19,6 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    SEL btnSelector = @selector(onTestBtnClicked:);
+    
+    [_selectorTestButton addTarget:self action:btnSelector forControlEvents:UIControlEventTouchUpInside];
+    
     
     BlockTest *blockTest = [[BlockTest alloc] init];
     [blockTest someFunction];
@@ -35,6 +39,10 @@
         NSLog(@"%s, line: %d, name: %@",__func__,__LINE__, value);
     }];
     
+}
+
+- (void)onTestBtnClicked:(UIButton *) sender {
+    NSLog(@"name: %@, btnTitle: %@", NSStringFromSelector(_cmd), sender.titleLabel.text);
 }
 
 

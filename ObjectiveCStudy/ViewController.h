@@ -12,6 +12,7 @@
 
 //외부에서 접근 가능한
 //함수, 프로퍼티, 멤버변수, 클래스 메소드
+@property (weak, nonatomic) IBOutlet UIButton *selectorTestButton;
 
 @end
 
