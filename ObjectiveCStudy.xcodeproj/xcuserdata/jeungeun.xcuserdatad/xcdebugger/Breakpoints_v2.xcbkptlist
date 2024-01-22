@@ -18,6 +18,86 @@
             endingLineNumber = "55"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B431DFEC-E4B4-4868-978F-0E43C77241DF - b6a27ba149474de6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController viewDidLoad]"
+                  moduleName = "ObjectiveCStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeungeun/Desktop/ObjectiveCStudy/ObjectiveCStudy/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "B431DFEC-E4B4-4868-978F-0E43C77241DF - b6a27ba149474dc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController viewDidLoad]"
+                  moduleName = "ObjectiveCStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeungeun/Desktop/ObjectiveCStudy/ObjectiveCStudy/ViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "852">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A1AD0E9-34FD-4DCD-A9E4-554A03B3E207"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ObjectiveCStudy/main.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "4A1AD0E9-34FD-4DCD-A9E4-554A03B3E207 - 6355d08787c6d897"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "ObjectiveCStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeungeun/Desktop/ObjectiveCStudy/ObjectiveCStudy/main.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "4A1AD0E9-34FD-4DCD-A9E4-554A03B3E207 - 6355d08787c727b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "ObjectiveCStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeungeun/Desktop/ObjectiveCStudy/ObjectiveCStudy/main.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

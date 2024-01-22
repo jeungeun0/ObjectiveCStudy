@@ -22,6 +22,8 @@
 		5AD8E0A32B5CFE110039C611 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8E0A22B5CFE110039C611 /* BlockTest.m */; };
 		5AF730382B5E5E1C00CAAC6F /* Friend+Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF730372B5E5E1C00CAAC6F /* Friend+Info.m */; };
 		5AF7303B2B5E5F7300CAAC6F /* NSDate+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7303A2B5E5F7300CAAC6F /* NSDate+Helpers.m */; };
+		5AF7303E2B5E611400CAAC6F /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7303D2B5E611400CAAC6F /* Pet.m */; };
+		5AF730412B5E640F00CAAC6F /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF730402B5E640F00CAAC6F /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,10 @@
 		5AF730372B5E5E1C00CAAC6F /* Friend+Info.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Friend+Info.m"; sourceTree = "<group>"; };
 		5AF730392B5E5F7300CAAC6F /* NSDate+Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helpers.h"; sourceTree = "<group>"; };
 		5AF7303A2B5E5F7300CAAC6F /* NSDate+Helpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helpers.m"; sourceTree = "<group>"; };
+		5AF7303C2B5E611400CAAC6F /* Pet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pet.h; sourceTree = "<group>"; };
+		5AF7303D2B5E611400CAAC6F /* Pet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pet.m; sourceTree = "<group>"; };
+		5AF7303F2B5E640F00CAAC6F /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		5AF730402B5E640F00CAAC6F /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +144,10 @@
 				5AF730372B5E5E1C00CAAC6F /* Friend+Info.m */,
 				5AF730392B5E5F7300CAAC6F /* NSDate+Helpers.h */,
 				5AF7303A2B5E5F7300CAAC6F /* NSDate+Helpers.m */,
+				5AF7303C2B5E611400CAAC6F /* Pet.h */,
+				5AF7303D2B5E611400CAAC6F /* Pet.m */,
+				5AF7303F2B5E640F00CAAC6F /* Cat.h */,
+				5AF730402B5E640F00CAAC6F /* Cat.m */,
 			);
 			path = ObjectiveCStudy;
 			sourceTree = "<group>";
@@ -289,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF730412B5E640F00CAAC6F /* Cat.m in Sources */,
 				5AD8E05B2B58D9400039C611 /* main.m in Sources */,
 				5AD8E04D2B58D93F0039C611 /* ViewController.m in Sources */,
 				5AD8E0472B58D93F0039C611 /* AppDelegate.m in Sources */,
@@ -298,6 +309,7 @@
 				5AD8E0A32B5CFE110039C611 /* BlockTest.m in Sources */,
 				5AF7303B2B5E5F7300CAAC6F /* NSDate+Helpers.m in Sources */,
 				5AF730382B5E5E1C00CAAC6F /* Friend+Info.m in Sources */,
+				5AF7303E2B5E611400CAAC6F /* Pet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
