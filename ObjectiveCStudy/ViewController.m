@@ -24,6 +24,12 @@
     [blockTest someFunction];
     [blockTest someFunctionWithParam:@"애옹이"];
     [blockTest someFunctionWithMultiParam:@"원두" withAge:7];
+    [blockTest someFunctionWithBlockParam:^(NSString * name) {
+        NSLog(@"%s, line: %d, name: %@",__func__,__LINE__, name);
+    }];
+    [blockTest someFunctionWithTypedefBlockParam:^(NSString * name) {
+        NSLog(@"%s, line: %d, name: %@",__func__,__LINE__, name);
+    }];
     
 }
 
