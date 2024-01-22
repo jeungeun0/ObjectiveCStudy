@@ -37,6 +37,12 @@
     [self saySomethingWithParam:100];
     [self saySomethingWithMultiParam:30 :@"쩡은"];
     //----------------------------------------------------
+    Friend *aFriend = [[Friend alloc]init];
+    [aFriend setNickname:@"으정이"];
+    NSLog(@"nickName: %@", [aFriend nickname]);
+    [aFriend setNickname:@"JD"];
+    NSLog(@"nickName: %@", [aFriend nickname]);
+    //----------------------------------------------------
     
     BlockTest *blockTest = [[BlockTest alloc] init];
     [blockTest someFunction];

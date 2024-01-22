@@ -14,13 +14,13 @@
             filePath = "ObjectiveCStudy/ViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "B431DFEC-E4B4-4868-978F-0E43C77241DF - b6a27ba149474bf5"
+                  uuid = "B431DFEC-E4B4-4868-978F-0E43C77241DF - b6a27ba149474c8f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/jeungeun/Desktop/ObjectiveCStudy/ObjectiveCStudy/ViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "364">
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "508">
                </Location>
                <Location
-                  uuid = "B431DFEC-E4B4-4868-978F-0E43C77241DF - b6a27ba149474bd4"
+                  uuid = "B431DFEC-E4B4-4868-978F-0E43C77241DF - b6a27ba149474cee"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,9 +45,9 @@
                   urlString = "file:///Users/jeungeun/Desktop/ObjectiveCStudy/ObjectiveCStudy/ViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "388">
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "560">
                </Location>
             </Locations>
          </BreakpointContent>
