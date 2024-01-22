@@ -31,6 +31,13 @@
     
     NSLog(@"createMyFriend: %@", [createMyFriend nickname]);
     
+    //----------------------------------------------------
+    [self sayHello];
+    int randomNumber = [self getRandomNumber];
+    [self saySomethingWithParam:100];
+    [self saySomethingWithMultiParam:30 :@"쩡은"];
+    //----------------------------------------------------
+    
     BlockTest *blockTest = [[BlockTest alloc] init];
     [blockTest someFunction];
     [blockTest someFunctionWithParam:@"애옹이"];
@@ -53,4 +60,34 @@
 }
 
 
+/// 매개변수 X, 반환 X
+/// [self sayHello];
+- (void)sayHello {
+    NSLog(@"안녕하세요");
+}
+
+
+/// 반환이 있는 형태
+/// @Return 랜덤숫자
+- (int)getRandomNumber {
+    NSLog(@"name: %@", NSStringFromSelector(_cmd));
+    //0~99 무작위수
+    return arc4random_uniform(100);
+}
+
+/// 매개변수를 가지는 함수
+/// - Parameter number: 숫자
+- (void)saySomethingWithParam:(NSInteger) number {
+    NSLog(@"name: %@", NSStringFromSelector(_cmd));
+    NSLog(@"number: %d", number);
+}
+
+/// 매개변수를 가지는 함수
+/// - Parameters:
+///   - number: 숫자
+///   - saying: 글자
+- (void)saySomethingWithMultiParam:(NSInteger) number :(NSString *) saying {
+    NSLog(@"name: %@", NSStringFromSelector(_cmd));
+    NSLog(@"number: %d, saying: %@", number, saying);
+}
 @end
