@@ -32,4 +32,24 @@
     NSLog(@"잘가요!!");
 }
 
+
+
++ (id)getAFriend {
+    
+    Friend *aFriend = [[Friend alloc] init];
+    
+    [aFriend setNickname:@"호호호호"];
+    
+    return aFriend;
+}
+
++ (Friend *)getAMyFriend {
+    
+    Friend *aFriend = [[Friend alloc] init];
+    
+    [aFriend setNickname:@"야옹야옹야옹"];
+    
+    return aFriend;
+}
+
 @end

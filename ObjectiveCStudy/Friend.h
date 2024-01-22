@@ -20,6 +20,10 @@
 //클래스 메소드 - 스테틱 메소드 - 객체 생성하지 않아도 호출할 수 있음
 + (void)sayGoodbye;
 
++ (id)getAFriend;
+
++ (Friend *)getAMyFriend;
+
 @end
 
 #endif /* Friend_h */

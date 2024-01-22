@@ -23,6 +23,13 @@
     
     [_selectorTestButton addTarget:self action:btnSelector forControlEvents:UIControlEventTouchUpInside];
     
+    Friend *createFriend = [Friend getAFriend];
+    
+    NSLog(@"createFriend: %@", [createFriend nickname]);
+    
+    Friend *createMyFriend = [Friend getAMyFriend];
+    
+    NSLog(@"createMyFriend: %@", [createMyFriend nickname]);
     
     BlockTest *blockTest = [[BlockTest alloc] init];
     [blockTest someFunction];
